@@ -16,35 +16,35 @@ const FounderStorySection = () => {
 
           {/* CENTERED HEADER */}
           <div className="text-center pt-12 lg:pt-16 px-6">
-            <p className="tracking-[4px] uppercase text-[12px] font-medium text-gray-500">
+            <p className="tracking-[4px] uppercase text-[10px] md:text-[12px] font-medium text-gray-500">
               A Note From
             </p>
-            <h2 className="text-[48px] lg:text-[54px] leading-none mt-3.5
+            <h2 className="text-4xl md:text-[48px] lg:text-[54px] leading-none mt-3.5
             font-['Cormorant_Garamond'] text-[#3b4528]">
               Nutritionist Lovneet Batra
             </h2>
 
             {/* DECORATION */}
             <div className="flex items-center gap-4 mt-5 justify-center">
-              <div className="w-15 h-px bg-[#d1cbbd]"></div>
+              <div className="w-10 md:w-15 h-px bg-[#d1cbbd]"></div>
               <span className="text-[#728646] flex items-center">
                 <Leaf size={16} />
               </span>
-              <div className="w-15 h-px bg-[#d1cbbd]"></div>
+              <div className="w-10 md:w-15 h-px bg-[#d1cbbd]"></div>
             </div>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-10 items-center mt-2">
 
             {/* LEFT */}
-            <div className="p-10 lg:p-16 lg:pt-8 w-full max-w-162.5 ml-auto">
+            <div className="p-8 md:p-10 lg:p-16 lg:pt-8 w-full max-w-162.5 mx-auto lg:ml-auto">
 
               {/* QUOTE */}
-              <div className="relative">
-                <span className="absolute -left-10 -top-2 text-[64px] text-[#cdd8b8] font-serif leading-none">
+              <div className="relative pl-6 md:pl-0">
+                <span className="absolute left-0 inline-block -translate-x-2 md:-left-10 -top-2 md:-top-2 text-5xl md:text-[64px] text-[#cdd8b8] font-serif leading-none">
                   “
                 </span>
-                <p className="text-[26px] lg:text-[28px] leading-[1.4] text-[#5b634d]">
+                <p className="text-xl md:text-[26px] lg:text-[28px] leading-[1.4] text-[#5b634d]">
                   Every plan I create is deeply personalized,
                   rooted in science and designed around your
                   real life. Because true healing is personal.
@@ -201,9 +201,9 @@ const FounderStorySection = () => {
             bg-[radial-gradient(#73834d_1px,transparent_1px)]
             bg-size-[24px_24px]"></div>
 
-            <div className="relative z-10 p-12 lg:p-16">
+            <div className="relative z-10 p-8 md:p-12 lg:p-16 text-center md:text-left">
 
-              <h2 className="text-[72px] leading-[0.95]
+              <h2 className="text-4xl md:text-[72px] leading-[1.1] md:leading-[0.95]
               font-['Cormorant_Garamond']
               text-[#41492f]">
 
@@ -219,11 +219,11 @@ const FounderStorySection = () => {
 
               </h2>
 
-              <div className="w-20 h-px
-              bg-[#bfb6a8] mt-10"></div>
+              <div className="w-16 md:w-20 h-px
+              bg-[#bfb6a8] mt-8 md:mt-10 mx-auto md:mx-0"></div>
 
-              <p className="mt-10 text-gray-600
-              leading-9 text-[17px] max-w-155">
+              <p className="mt-8 md:mt-10 text-gray-600
+              leading-8 md:leading-9 text-base md:text-[17px] max-w-full md:max-w-155">
 
                 Every plan I create is as unique as the person
                 I’m guiding. Because true wellness isn’t one-size-fits-all.

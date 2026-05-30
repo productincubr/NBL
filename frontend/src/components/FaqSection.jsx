@@ -42,7 +42,7 @@ const FaqSection = () => {
 
         {/* Heading */}
 
-        <h2 className="text-center text-[64px] leading-none font-['Cormorant_Garamond'] text-[#3f472d] mb-16">
+        <h2 className="text-center text-4xl md:text-[64px] leading-tight md:leading-none font-['Cormorant_Garamond'] text-[#3f472d] mb-12 md:mb-16">
 
           Frequently Ask Questions
 

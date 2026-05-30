@@ -4,16 +4,16 @@ import { LuArrowRight, LuHeart, LuStar, LuUser } from "react-icons/lu";
 
 const HeroSection = () => {
   return (
-    <section className="w-full min-h-screen bg-[#f5f1eb] px-16 py-10 flex flex-col lg:flex-row items-center justify-between gap-14">
+    <section className="w-full min-h-screen bg-[#f5f1eb] px-6 md:px-16 py-10 flex flex-col lg:flex-row items-center justify-between gap-14 mt-16 md:mt-0">
 
       {/* LEFT CONTENT */}
-      <div className="flex-1">
+      <div className="flex-1 text-center md:text-left flex flex-col items-center md:items-start">
 
-        <p className="text-[12px] tracking-[4px] text-gray-500 mb-8">
+        <p className="text-[10px] md:text-[12px] tracking-[4px] text-gray-500 mb-6 md:mb-8">
           CLINICAL NUTRITIONIST • AUTHOR • MOTHER
         </p>
 
-        <h1 className="text-[72px] leading-[1.1] font-serif text-[#2d2d2d] mb-8">
+        <h1 className="text-5xl md:text-[72px] leading-[1.2] md:leading-[1.1] font-serif text-[#2d2d2d] mb-6 md:mb-8">
 
           Heal your <br />
           relationship <br />
@@ -24,20 +24,20 @@ const HeroSection = () => {
 
         </h1>
 
-        <p className="text-[20px] text-gray-600 leading-[1.7] max-w-[650px] mb-10">
+        <p className="text-base md:text-[20px] text-gray-600 leading-[1.7] max-w-[650px] mb-8 md:mb-10 px-4 md:px-0">
           Science-backed nutrition rooted in Indian wisdom
           to help you feel better, inside out.
         </p>
 
         {/* BUTTONS */}
-        <div className="flex flex-wrap gap-5 mb-14">
+        <div className="flex flex-col sm:flex-row flex-wrap justify-center md:justify-start gap-4 md:gap-5 mb-12 md:mb-14 w-full sm:w-auto">
 
-          <button className="inline-flex items-center gap-2 bg-[#1f4d1f] hover:bg-[#193C0F] text-white px-8 py-3 rounded-full tracking-wide text-sm transition">
+          <button className="inline-flex justify-center items-center gap-2 bg-[#1f4d1f] hover:bg-[#193C0F] text-white px-8 py-3 rounded-full tracking-wide text-sm transition w-full sm:w-auto">
             BOOK CONSULTATION
             <LuArrowRight className="text-base" />
           </button>
 
-          <button className="inline-flex items-center gap-2 border border-gray-400 px-8 py-3 rounded-full tracking-wide text-sm hover:bg-gray-100 transition">
+          <button className="inline-flex justify-center items-center gap-2 border border-gray-400 px-8 py-3 rounded-full tracking-wide text-sm hover:bg-gray-100 transition w-full sm:w-auto">
             EXPLORE PROGRAMS
             <LuArrowRight className="text-base" />
           </button>

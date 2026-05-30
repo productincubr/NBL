@@ -62,8 +62,8 @@ const ProcessSection = () => {
           </div>
 
           {/* HEADING */}
-          <h1 className="text-[72px] leading-[1] text-[#3d452f]
-          font-['Cormorant_Garamond']">
+          <h1 className="text-4xl md:text-[72px] leading-[1.2] md:leading-[1] text-[#3d452f]
+          font-['Cormorant_Garamond'] mt-4 md:mt-0">
 
             Your path for your{" "}
 
@@ -149,7 +149,7 @@ const ProcessSection = () => {
 
             {/* LEFT */}
             <div className="flex-1 flex flex-col items-start lg:pr-6 w-full pt-2">
-              <h2 className="text-white text-[44px] lg:text-[48px] xl:text-[52px] leading-[1.1]
+              <h2 className="text-white text-3xl md:text-[44px] lg:text-[48px] xl:text-[52px] leading-[1.2] md:leading-[1.1]
               font-['Cormorant_Garamond'] tracking-wide">
                 Trusted by thousands <br className="hidden lg:block" />
                 seeking sustainable <br className="hidden lg:block" />

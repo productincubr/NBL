@@ -48,7 +48,7 @@ const ResourcesSection = () => {
             Learn • Nourish • Grow
           </p>
 
-          <h2 className="mt-4 text-[60px] leading-none text-[#3f472d] font-['Cormorant_Garamond']">
+          <h2 className="mt-4 text-4xl md:text-[60px] leading-tight md:leading-none text-[#3f472d] font-['Cormorant_Garamond']">
 
             Wellness knowledge you can use every day.
 
