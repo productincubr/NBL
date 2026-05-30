@@ -55,7 +55,7 @@ const expertiseData = [
 
 const ExpertiseSection = () => {
   return (
-    <section className="w-full bg-[#f5f2ec] py-20 overflow-hidden">
+    <section className="w-full bg-[#f5f2ec] py-8 md:py-12 overflow-hidden">
 
       {/* CONTAINER */}
       <div className="max-w-400 mx-auto px-6 lg:px-10 xl:px-12">

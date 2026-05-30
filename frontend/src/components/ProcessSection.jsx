@@ -34,7 +34,7 @@ const steps = [
 
 const ProcessSection = () => {
   return (
-    <section className="w-full bg-[#f5f2ec] py-28 overflow-hidden">
+    <section className="w-full bg-[#f5f2ec] py-10 md:py-16 pb-0 overflow-hidden">
 
       {/* TOP CONTENT */}
       <div className="max-w-[1400px] mx-auto px-6 lg:px-16">
@@ -42,14 +42,14 @@ const ProcessSection = () => {
         {/* SMALL TITLE */}
         <div className="text-center">
 
-          <p className="tracking-[4px] uppercase text-[13px] text-gray-500 mb-5">
+          <p className="tracking-[4px] uppercase text-[12px] md:text-[13px] text-gray-500 mb-4 md:mb-5">
 
             The Process
 
           </p>
 
           {/* DECORATION */}
-          <div className="flex justify-center items-center gap-3 mb-8">
+          <div className="flex justify-center items-center gap-3 mb-6 md:mb-8">
 
             <div className="w-12 h-[1px] bg-[#d8d3cb]"></div>
 
@@ -62,8 +62,8 @@ const ProcessSection = () => {
           </div>
 
           {/* HEADING */}
-          <h1 className="text-4xl md:text-[72px] leading-[1.2] md:leading-[1] text-[#3d452f]
-          font-['Cormorant_Garamond'] mt-4 md:mt-0">
+          <h1 className="text-3xl md:text-[60px] leading-[1.2] md:leading-[1.1] text-[#3d452f]
+          font-['Cormorant_Garamond'] mt-2 md:mt-0">
 
             Your path for your{" "}
 
@@ -76,7 +76,7 @@ const ProcessSection = () => {
         </div>
 
         {/* STEPS */}
-        <div className="relative mt-28">
+        <div className="relative mt-12 md:mt-20">
 
           {/* CENTER LINE */}
           <div className="hidden lg:block absolute top-10 left-1/2

@@ -60,7 +60,7 @@ const programs = [
 
 const ProgramsSection = () => {
   return (
-    <section className="w-full bg-[#F9F7F2] py-28 overflow-hidden">
+    <section className="w-full bg-[#f5f2ec] py-10 md:py-16 overflow-hidden">
 
       {/* CONTAINER */}
       <div className="max-w-362.5 mx-auto px-6 lg:px-20">
@@ -68,20 +68,20 @@ const ProgramsSection = () => {
         {/* TOP CONTENT */}
         <div className="text-center max-w-5xl mx-auto">
 
-          <p className="tracking-[4px] uppercase text-[12px] text-gray-500 font-bold mb-5">
+          <p className="tracking-[4px] uppercase text-[10px] md:text-[12px] text-gray-500 font-bold mb-4 md:mb-5">
 
             Personalized Wellness Programs
 
           </p>
 
           {/* DECORATION */}
-          <div className="flex justify-center mb-5">
+          <div className="flex justify-center mb-4 md:mb-5">
           <span className="text-[#6b7b45] flex items-center justify-center">
             <Leaf size={18} />
           </span>
           </div>
 
-          <h1 className="text-[75px] leading-[0.95] font-['Cormorant_Garamond'] text-[#3f472d]">
+          <h1 className="text-4xl md:text-[60px] lg:text-[70px] leading-[1.2] md:leading-[1] font-['Cormorant_Garamond'] text-[#3f472d]">
 
             Care designed <br />
 
@@ -92,7 +92,7 @@ const ProgramsSection = () => {
 
           </h1>
 
-          <p className="mt-10 text-gray-500 text-[18px] leading-loose max-w-4xl mx-auto">
+          <p className="mt-6 md:mt-8 text-gray-500 text-base md:text-[18px] leading-relaxed md:leading-loose max-w-4xl mx-auto">
 
             No two bodies, routines or journeys are the same.
             Your plan is thoughtfully crafted around your lifestyle,
@@ -104,7 +104,7 @@ const ProgramsSection = () => {
         </div>
 
         {/* PROGRAMS GRID */}
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-24">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-12 md:mt-16">
 
           {programs.map((item, index) => (
 

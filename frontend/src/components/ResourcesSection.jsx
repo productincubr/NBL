@@ -37,7 +37,7 @@ const resources = [
 
 const ResourcesSection = () => {
   return (
-    <section className="py-20 bg-linear-to-b from-white from-0% to-[#EDE9DE] to-100%">
+    <section className="py-12 md:py-20 bg-linear-to-b from-white from-0% to-[#EDE9DE] to-100%">
 
       <div className="max-w-350 mx-auto px-6 lg:px-12">
 

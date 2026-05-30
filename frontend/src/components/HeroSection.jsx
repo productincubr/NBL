@@ -4,7 +4,7 @@ import { LuArrowRight, LuHeart, LuStar, LuUser } from "react-icons/lu";
 
 const HeroSection = () => {
   return (
-    <section className="w-full min-h-screen bg-[#f5f1eb] px-6 md:px-16 py-10 flex flex-col lg:flex-row items-center justify-between gap-14 mt-16 md:mt-0">
+    <section className="w-full min-h-screen bg-[#f5f1eb] px-6 md:px-16 py-6 flex flex-col lg:flex-row items-center justify-between gap-16 mt-16 md:mt-0">
 
       {/* LEFT CONTENT */}
       <div className="flex-1 text-center md:text-left flex flex-col items-center md:items-start">
@@ -13,7 +13,7 @@ const HeroSection = () => {
           CLINICAL NUTRITIONIST • AUTHOR • MOTHER
         </p>
 
-        <h1 className="text-5xl md:text-[72px] leading-[1.2] md:leading-[1.1] font-serif text-[#2d2d2d] mb-6 md:mb-8">
+        <h1 className="text-4xl md:text-[60px] leading-[1.2] md:leading-[1.1] font-serif text-[#2d2d2d] mb-6 md:mb-8">
 
           Heal your <br />
           relationship <br />
@@ -24,7 +24,7 @@ const HeroSection = () => {
 
         </h1>
 
-        <p className="text-base md:text-[20px] text-gray-600 leading-[1.7] max-w-[650px] mb-8 md:mb-10 px-4 md:px-0">
+        <p className="text-base md:text-[20px] text-gray-600 leading-[1.7] max-w-[650px] mb-8 md:mb-8 px-4 md:px-0">
           Science-backed nutrition rooted in Indian wisdom
           to help you feel better, inside out.
         </p>
@@ -93,7 +93,7 @@ const HeroSection = () => {
         <img
           src={heroImage}
           alt="Nutritionist"
-          className="w-full max-w-[520px] rounded-[40px] object-cover"
+          className="w-full max-w-[490px] rounded-[40px] object-cover"
         />
 
       </div>

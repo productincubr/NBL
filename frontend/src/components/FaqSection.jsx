@@ -36,7 +36,7 @@ const FaqSection = () => {
   };
 
   return (
-    <section className="bg-[#f5f2ec] py-24">
+    <section className="bg-[#f5f2ec] py-12 md:py-20">
 
       <div className="max-w-5xl mx-auto px-6">
 

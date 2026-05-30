@@ -10,14 +10,14 @@ import review3 from "../assets/review3.webp";
 
 const RecognitionSection = () => {
   return (
-    <section className="bg-[#f5f2ec] py-16 md:py-24 overflow-hidden">
+    <section className="bg-[#f5f2ec] py-10 md:py-16 overflow-hidden">
       <div className="max-w-350 mx-auto px-5 lg:px-12">
         {/* HEADING */}
-        <div className="text-center mb-12 md:mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <p className="uppercase tracking-[4px] text-xs font-semibold text-[#5d6649]">
             Featured In
           </p>
-          <h2 className="mt-4 text-4xl md:text-[58px] leading-tight text-[#3f472d] font-['Cormorant_Garamond']">
+          <h2 className="mt-4 text-3xl md:text-[54px] leading-[1.2] md:leading-tight text-[#3f472d] font-['Cormorant_Garamond']">
             Recognized. Respected. Recommended.
           </h2>
           <p className="mt-4 text-sm md:text-base text-gray-500 max-w-2xl mx-auto px-4 md:px-0">
@@ -33,7 +33,7 @@ const RecognitionSection = () => {
               <p className="text-xs font-semibold tracking-[3px] uppercase text-[#5d6649]">
                 Founder Story
               </p>
-              <h3 className="mt-4 text-3xl sm:text-4xl md:text-[48px] lg:text-[55px] leading-tight text-[#3f472d] font-['Cormorant_Garamond']">
+              <h3 className="mt-4 text-3xl sm:text-3xl md:text-[44px] lg:text-[48px] leading-tight text-[#3f472d] font-['Cormorant_Garamond']">
                 A journey rooted in
                 <br />
                 <span className="italic">

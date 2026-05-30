@@ -6,7 +6,7 @@ import founderImage from "../assets/PortraitImg.webp";
 
 const FounderStorySection = () => {
   return (
-    <section className="w-full bg-[#f5f2ec] py-18 overflow-hidden">
+    <section className="w-full bg-[#f5f2ec] py-8 md:py-12 overflow-hidden">
 
       {/* CONTAINER */}
       <div className="max-w-362.5 mx-auto px-6 lg:px-16">
@@ -15,11 +15,11 @@ const FounderStorySection = () => {
         <div className="bg-[#f8f5ef] rounded-4xl overflow-hidden border border-[#ebe5db]">
 
           {/* CENTERED HEADER */}
-          <div className="text-center pt-12 lg:pt-16 px-6">
+          <div className="text-center pt-8 md:pt-12 lg:pt-16 px-6">
             <p className="tracking-[4px] uppercase text-[10px] md:text-[12px] font-medium text-gray-500">
               A Note From
             </p>
-            <h2 className="text-4xl md:text-[48px] lg:text-[54px] leading-none mt-3.5
+            <h2 className="text-3xl md:text-[40px] lg:text-[48px] leading-none mt-3.5
             font-['Cormorant_Garamond'] text-[#3b4528]">
               Nutritionist Lovneet Batra
             </h2>
@@ -203,7 +203,7 @@ const FounderStorySection = () => {
 
             <div className="relative z-10 p-8 md:p-12 lg:p-16 text-center md:text-left">
 
-              <h2 className="text-4xl md:text-[72px] leading-[1.1] md:leading-[0.95]
+              <h2 className="text-3xl md:text-[60px] leading-[1.1] md:leading-[0.95]
               font-['Cormorant_Garamond']
               text-[#41492f]">
 

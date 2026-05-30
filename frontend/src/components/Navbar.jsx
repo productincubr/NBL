@@ -4,7 +4,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="relative w-full flex items-center justify-between px-6 lg:px-16 py-6 bg-[#f5f1eb]">
+    <nav className="relative w-full flex items-center justify-between px-6 lg:px-16 py-4 bg-[#f5f1eb]">
 
       {/* Logo */}
       <div>
@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
 
       {/* Nav Links */}
-      <ul className="hidden lg:flex items-center gap-10 text-[13px] tracking-[1px] text-[#2C2C2C]">
+      <ul className="hidden lg:flex items-center gap-10 text-[15px] font-semibold tracking-[1px] text-[#2C2C2C]">
         <li className="cursor-pointer hover:text-[#6b7452]">PROGRAMS</li>
         <li className="cursor-pointer hover:text-[#6b7452]">ABOUT</li>
         <li className="cursor-pointer hover:text-[#6b7452]">RESOURCES</li>

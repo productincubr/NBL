@@ -6,16 +6,16 @@ import videoThumb from "../assets/videoImg.webp";
 
 const AboutSection = () => {
   return (
-    <section className="w-full bg-[#f5f2ec] py-16 md:py-24 px-6 lg:px-20 overflow-hidden">
+    <section className="w-full bg-[#f5f2ec] py-10 md:py-16 px-6 lg:px-20 overflow-hidden">
 
       {/* TOP HEADING */}
-      <div className="text-center mb-12 md:mb-20">
+      <div className="text-center mb-10 md:mb-16">
 
         <p className="tracking-[4px] text-xs md:text-sm text-gray-500 uppercase mb-4">
           A NOTE FROM
         </p>
 
-        <h2 className="text-4xl md:text-[60px] leading-[1.2] md:leading-none font-serif text-[#4b5632]">
+        <h2 className="text-3xl md:text-[54px] leading-[1.2] md:leading-[1.1] font-serif text-[#4b5632]">
           Nutritionist Lovneet Batra
         </h2>
 
@@ -74,7 +74,7 @@ const AboutSection = () => {
         {/* RIGHT CONTENT */}
         <div className="text-center md:text-left mt-8 md:mt-0">
 
-          <h1 className="text-4xl md:text-[72px] leading-[1.2] md:leading-[1.1] font-serif text-[#4b5632]">
+          <h1 className="text-3xl md:text-[62px] leading-[1.2] md:leading-[1.1] font-serif text-[#4b5632]">
 
             Food can heal. <br />
 
@@ -84,7 +84,7 @@ const AboutSection = () => {
 
           </h1>
 
-          <p className="mt-6 md:mt-8 text-gray-600 text-base md:text-[20px] leading-relaxed md:leading-loose max-w-full md:max-w-162.5 text-center md:text-left">
+          <p className="mt-6 md:mt-8 text-gray-600 text-base md:text-[18px] leading-relaxed md:leading-8 max-w-full md:max-w-162.5 text-center md:text-left">
 
             My mission is simple – to help you build a positive,
             balanced relationship with food that feels nourishing
@@ -139,9 +139,9 @@ const AboutSection = () => {
           </div>
 
           {/* SIGNATURE */}
-          <div className="mt-10 md:mt-12 text-center md:text-left">
+          <div className="mt-8 md:mt-10 text-center md:text-left">
 
-            <h3 className="text-4xl md:text-[56px] font-serif italic text-[#4b5632]">
+            <h3 className="text-3xl md:text-[48px] font-serif italic text-[#4b5632]">
               Lovneet Batra ♥
             </h3>
 
