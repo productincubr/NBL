@@ -11,45 +11,45 @@ import {
 
 const expertiseData = [
   {
-    icon: <ClipboardList size={34} />,
-    title: "Clinical\nNutritionist",
-    desc: "Science-backed nutrition expertise to address root causes and create lasting health transformations.",
-    bottom: "ROOT-CAUSE\nHEALING",
+    icon: <ClipboardList size={30} />,
+    title: "Clinical Nutritionist",
+    desc: "Science-backed nutrition expertise for root-cause healing and lasting health transformations.",
+    bottom: "ROOT-CAUSE HEALING",
   },
 
   {
-    icon: <BookOpen size={34} />,
+    icon: <BookOpen size={30} />,
     title: "Author",
-    desc: "Author of bestselling books on nutrition & wellness that have empowered thousands of lives.",
-    bottom: "KNOWLEDGE THAT\nEMPOWERS",
+    desc: "Author of bestselling books on nutrition and wellness that have empowered thousands of lives.",
+    bottom: "KNOWLEDGE THAT EMPOWERS",
   },
 
   {
-    icon: <Mic size={34} />,
-    title: "Speaker &\nPodcaster",
-    desc: "International speaker and podcast host spreading science-backed wellness with clarity and impact.",
-    bottom: "INSPIRING REAL\nCHANGE",
+    icon: <Mic size={30} />,
+    title: "Speaker & Podcaster",
+    desc: "International speaker and podcast host sharing science-backed wellness with clarity and impact.",
+    bottom: "INSPIRING REAL CHANGE",
   },
 
   {
-    icon: <FlaskConical size={34} />,
-    title: "Functional\nNutrition\nExpert",
-    desc: "Specialized in functional nutrition to support hormonal balance, gut health, metabolism and lifestyle challenges.",
-    bottom: "PERSONALIZED\nSOLUTIONS",
+    icon: <FlaskConical size={30} />,
+    title: "Functional Nutrition Expert",
+    desc: "Specialized in functional nutrition for hormonal balance, gut health, metabolism and lifestyle support.",
+    bottom: "PERSONALIZED SOLUTIONS",
   },
 
   {
-    icon: <Zap size={34} />,
-    title: "Sports\nNutrition",
+    icon: <Zap size={30} />,
+    title: "Sports Nutrition",
     desc: "Helping individuals improve performance, recovery and energy through smart, sustainable nutrition.",
-    bottom: "PERFORM.\nRECOVER. THRIVE.",
+    bottom: "PERFORM. RECOVER. THRIVE.",
   },
 
   {
-    icon: <Heart size={34} />,
-    title: "Mother &\nWellness\nMentor",
-    desc: "A mother who truly understands real-life struggles and guides you with compassion and practical wisdom.",
-    bottom: "GUIDANCE WITH\nHEART",
+    icon: <Heart size={30} />,
+    title: "Mother & Wellness Mentor",
+    desc: "A mother who understands real-life struggles and guides you with compassion and practical wisdom.",
+    bottom: "GUIDANCE WITH HEART",
   },
 ];
 
@@ -58,51 +58,51 @@ const ExpertiseSection = () => {
     <section className="w-full bg-[#f5f2ec] py-20 overflow-hidden">
 
       {/* CONTAINER */}
-      <div className="max-w-[1500px] mx-auto px-6 lg:px-16">
+      <div className="max-w-420 mx-auto px-6 lg:px-10 xl:px-12">
 
         {/* GRID */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-3 items-stretch text-center">
 
           {expertiseData.map((item, index) => (
 
             <div
               key={index}
-              className="group bg-[#faf8f4] rounded-[20px] px-8 py-10 border border-[#ece7df]
-              hover:-translate-y-4 hover:shadow-2xl transition-all duration-500 cursor-pointer
-              relative overflow-hidden"
+              className="group bg-[#fff] rounded-[20px] px-8 py-10 border border-[#ece7df]
+              hover:-translate-y-3 hover:shadow-2xl transition-all duration-500 cursor-pointer
+              relative overflow-hidden flex flex-col h-full min-h-85 "
             >
 
               {/* TOP GLOW EFFECT */}
-              <div className="absolute inset-0 bg-gradient-to-b from-[#dfe7c9]/40 to-transparent opacity-0 group-hover:opacity-100 duration-500"></div>
+              <div className="absolute inset-0 bg-linear-to-b from-[#dfe7c9]/40 to-transparent opacity-0 group-hover:opacity-100 duration-500 "></div>
 
               {/* ICON */}
-              <div className="relative z-10 text-[#7b8056] mb-8 group-hover:scale-110 duration-500">
+              <div className="relative z-10 text-[#7b8056] mb-6 group-hover:scale-110 duration-500 flex justify-center ">
 
                 {item.icon}
 
               </div>
 
               {/* TITLE */}
-              <h2 className="relative z-10 text-[34px] leading-[1.1] whitespace-pre-line font-['Cormorant_Garamond'] text-[#4b5632] mb-8">
+              <h2 className="relative z-10 text-[22px] leading-[1.05] font-['Cormorant_Garamond'] text-[#4b5632] mb-5 min-h-14">
 
                 {item.title}
 
               </h2>
 
               {/* DESCRIPTION */}
-              <p className="relative z-10 text-gray-500 text-[15px] leading-8 mb-14">
+              <p className="relative z-10 text-gray-500 text-[13px] leading-7 mb-8 flex-1">
 
                 {item.desc}
 
               </p>
 
               {/* DIVIDER */}
-              <div className="w-full h-[1px] bg-[#ebe6de] mb-8"></div>
+              <div className="w-full h-px bg-[#ebe6de] mb-6"></div>
 
               {/* BOTTOM TEXT */}
-              <p className="relative z-10 text-[11px] tracking-[3px] text-gray-400 uppercase whitespace-pre-line">
+              <p className="relative z-10 text-[8px] tracking-[3px] text-gray-400 uppercase leading-5">
 
-                ✦ {item.bottom}
+                {item.bottom}
 
               </p>
 

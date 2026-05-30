@@ -1,4 +1,5 @@
 import React from "react";
+import { Leaf } from "lucide-react";
 
 import mainImage from "../assets/nutritionistImg.png";
 import videoThumb from "../assets/videoImg.png";
@@ -21,13 +22,13 @@ const AboutSection = () => {
         {/* Divider */}
         <div className="flex items-center justify-center gap-4 mt-6">
 
-          <div className="w-20 h-[1px] bg-gray-300"></div>
+          <div className="w-20 h-px bg-gray-300"></div>
 
-          <span className="text-[#6b7b45] text-xl">
-            ❦
+          <span className="text-[#6b7b45] flex items-center justify-center">
+            <Leaf size={18} />
           </span>
 
-          <div className="w-20 h-[1px] bg-gray-300"></div>
+          <div className="w-20 h-px bg-gray-300"></div>
 
         </div>
 
@@ -40,7 +41,7 @@ const AboutSection = () => {
         <div className="relative flex justify-center">
 
           {/* Main Image */}
-          <div className="rounded-t-[220px] overflow-hidden max-w-[500px] ">
+          <div className="rounded-t-[220px] overflow-hidden max-w-125 ">
             <img
               src={mainImage}
               alt="Nutritionist"
@@ -50,7 +51,7 @@ const AboutSection = () => {
           </div>
 
           {/* Floating Card */}
-          <div className="absolute bottom-10 left-0 bg-[#3D452B] w-[300px] p-8 rounded-[24px] shadow-2xl backdrop-blur-md hover:-translate-y-2 duration-500">
+          <div className="absolute bottom-10 left-0 bg-[#3D452B] w-75 p-8 rounded-3xl shadow-2xl backdrop-blur-md hover:-translate-y-2 duration-500">
 
             <span className="text-4xl text-[#9acd32]">❝</span>
 
@@ -83,7 +84,7 @@ const AboutSection = () => {
 
           </h1>
 
-          <p className="mt-8 text-gray-600 text-[20px] leading-[2] max-w-[650px]">
+          <p className="mt-8 text-gray-600 text-[20px] leading-loose max-w-162.5">
 
             My mission is simple – to help you build a positive,
             balanced relationship with food that feels nourishing
@@ -93,16 +94,16 @@ const AboutSection = () => {
           </p>
 
           {/* VIDEO CARD */}
-          <div className="relative mt-10 w-full max-w-[370px]">
+          <div className="relative mt-10 w-full max-w-92.5">
 
-            <div className="bg-[#ebe7df] rounded-[16px] p-4 shadow-xl">
+            <div className="bg-[#ebe7df] rounded-2xl p-4 shadow-xl">
 
-              <div className="relative rounded-[12px] overflow-hidden">
+              <div className="relative rounded-xl overflow-hidden">
 
                 <img
                   src={videoThumb}
                   alt="video"
-                  className="w-full h-[220px] object-cover group-hover:scale-105 duration-700"
+                  className="w-full h-55 object-cover group-hover:scale-105 duration-700"
                 />
 
                 {/* PLAY BUTTON */}

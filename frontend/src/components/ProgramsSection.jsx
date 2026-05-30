@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Leaf } from "lucide-react";
 
 import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.png";
@@ -68,7 +68,7 @@ const ProgramsSection = () => {
         {/* TOP CONTENT */}
         <div className="text-center max-w-5xl mx-auto">
 
-          <p className="tracking-[4px] uppercase text-[12px] text-gray-500 mb-5">
+          <p className="tracking-[4px] uppercase text-[12px] text-gray-500 font-bold mb-5">
 
             Personalized Wellness Programs
 
@@ -76,9 +76,9 @@ const ProgramsSection = () => {
 
           {/* DECORATION */}
           <div className="flex justify-center mb-5">
-            <span className="text-[#71814d] text-xl">
-              ❦
-            </span>
+          <span className="text-[#6b7b45] flex items-center justify-center">
+            <Leaf size={18} />
+          </span>
           </div>
 
           <h1 className="text-[75px] leading-[0.95] font-['Cormorant_Garamond'] text-[#3f472d]">

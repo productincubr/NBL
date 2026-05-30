@@ -5,6 +5,11 @@ import AboutSection from './components/AboutSection.jsx'
 import ExpertiseSection from './components/ExpertiseSection.jsx'
 import ProgramsSection from './components/ProgramsSection.jsx'
 import ProcessSection from './components/ProcessSection.jsx'
+import FounderStorySection from './components/FounderStorySection.jsx'
+import RecognitionSection from './components/RecognitionSection.jsx'
+import ResourcesSection from './components/ResourcesSection.jsx'
+import FaqSection from './components/FaqSection.jsx'
+import Footer from './components/Footer.jsx'
 
 const App = () => {
   return (
@@ -16,6 +21,11 @@ const App = () => {
       <ExpertiseSection />
       <ProgramsSection />
       <ProcessSection />
+      <FounderStorySection/>
+      <RecognitionSection/>
+      <ResourcesSection/>
+      <FaqSection/>
+      <Footer/>
     </main>
   )
 }
