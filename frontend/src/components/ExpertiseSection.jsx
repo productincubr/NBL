@@ -58,7 +58,7 @@ const ExpertiseSection = () => {
     <section className="w-full bg-[#f5f2ec] py-20 overflow-hidden">
 
       {/* CONTAINER */}
-      <div className="max-w-420 mx-auto px-6 lg:px-10 xl:px-12">
+      <div className="max-w-400 mx-auto px-6 lg:px-10 xl:px-12">
 
         {/* GRID */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-3 items-stretch text-center">
@@ -67,7 +67,7 @@ const ExpertiseSection = () => {
 
             <div
               key={index}
-              className="group bg-[#fff] rounded-[20px] px-8 py-10 border border-[#ece7df]
+              className="group bg-white rounded-[20px] px-8 py-10 border border-[#ece7df]
               hover:-translate-y-3 hover:shadow-2xl transition-all duration-500 cursor-pointer
               relative overflow-hidden flex flex-col h-full min-h-85 "
             >

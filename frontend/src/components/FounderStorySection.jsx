@@ -9,10 +9,10 @@ const FounderStorySection = () => {
     <section className="w-full bg-[#f5f2ec] py-18 overflow-hidden">
 
       {/* CONTAINER */}
-      <div className="max-w-[1450px] mx-auto px-6 lg:px-16">
+      <div className="max-w-362.5 mx-auto px-6 lg:px-16">
 
         {/* TOP CARD */}
-        <div className="bg-[#f8f5ef] rounded-[32px] overflow-hidden border border-[#ebe5db]">
+        <div className="bg-[#f8f5ef] rounded-4xl overflow-hidden border border-[#ebe5db]">
 
           {/* CENTERED HEADER */}
           <div className="text-center pt-12 lg:pt-16 px-6">
@@ -26,18 +26,18 @@ const FounderStorySection = () => {
 
             {/* DECORATION */}
             <div className="flex items-center gap-4 mt-5 justify-center">
-              <div className="w-[60px] h-[1px] bg-[#d1cbbd]"></div>
+              <div className="w-15 h-px bg-[#d1cbbd]"></div>
               <span className="text-[#728646] flex items-center">
                 <Leaf size={16} />
               </span>
-              <div className="w-[60px] h-[1px] bg-[#d1cbbd]"></div>
+              <div className="w-15 h-px bg-[#d1cbbd]"></div>
             </div>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-10 items-center mt-2">
 
             {/* LEFT */}
-            <div className="p-10 lg:p-16 lg:pt-8 w-full max-w-[650px] ml-auto">
+            <div className="p-10 lg:p-16 lg:pt-8 w-full max-w-162.5 ml-auto">
 
               {/* QUOTE */}
               <div className="relative">
@@ -61,13 +61,13 @@ const FounderStorySection = () => {
               </div>
 
               {/* EXPERIENCE BOX */}
-              <div className="mt-6 bg-[#fbfbf9] max-w-[480px]">
+              <div className="mt-6 bg-[#fbfbf9] max-w-120">
                 <div className="space-y-2">
                   <p className="text-gray-600 flex items-start gap-2">
                     <span className="text-[#f19090] mt-1"><Heart size={16} fill="currentColor" strokeWidth={0} /></span>
                   </p>
                   <div className="text-[#3b4528] flex items-start gap-2">
-                    <span className="text-gray-400 mt-[3px]"><Sun size={16} /></span>
+                    <span className="text-gray-400 mt-0.75"><Sun size={16} /></span>
                     <div>
                       <p className="font-semibold text-[15.5px]">14+ years of experience.</p>
                       <p className="font-semibold text-[15.5px]">Thousands of transformations.</p>
@@ -84,11 +84,11 @@ const FounderStorySection = () => {
             {/* RIGHT IMAGE */}
             <div className="relative h-full flex justify-end lg:pr-16 pt-8 pb-0">
               {/* IMAGE WRAPPER WITH BACKGROUND SHAPE */}
-              <div className="relative w-full max-w-[420px]  rounded-tr-[120px] rounded-tl-[32px] pt-12 px-8 flex justify-center items-end overflow-hidden">
+              <div className="relative w-full max-w-105 rounded-tr-[120px] rounded-tl-4xl pt-12 px-8 flex justify-center items-end overflow-hidden">
                 <img
                   src={founderImage}
                   alt="Nutritionist Lovneet Batra"
-                  className="relative z-10 w-[100%] max-w-[400px]
+                  className="relative z-10 w-full max-w-100
                   object-cover 
                   hover:scale-105 duration-700 mx-auto"
                 />
@@ -100,7 +100,7 @@ const FounderStorySection = () => {
         </div>
 
         {/* STATS BAR */}
-        <div className="mt-8 bg-white rounded-[32px]
+        <div className="mt-8 bg-white rounded-4xl
         border border-[#ebe5db] shadow-[0_4px_20px_rgba(0,0,0,0.02)]
         grid grid-cols-2 lg:grid-cols-4 overflow-hidden relative z-10">
 
@@ -178,7 +178,7 @@ const FounderStorySection = () => {
         </div>
 
         {/* BOTTOM STORY SECTION */}
-        <div className="mt-8 grid lg:grid-cols-2 rounded-[32px]
+        <div className="mt-8 grid lg:grid-cols-2 rounded-4xl
         overflow-hidden border border-[#ebe5db]">
 
           {/* LEFT COLLAGE */}
@@ -187,7 +187,7 @@ const FounderStorySection = () => {
             <img
               src={collageImage}
               alt="collage"
-              className="w-full rounded-[24px]
+              className="w-full rounded-3xl
               hover:scale-[1.02] duration-700"
             />
 
@@ -199,7 +199,7 @@ const FounderStorySection = () => {
             {/* PATTERN */}
             <div className="absolute inset-0 opacity-10
             bg-[radial-gradient(#73834d_1px,transparent_1px)]
-            [background-size:24px_24px]"></div>
+            bg-size-[24px_24px]"></div>
 
             <div className="relative z-10 p-12 lg:p-16">
 
@@ -219,11 +219,11 @@ const FounderStorySection = () => {
 
               </h2>
 
-              <div className="w-20 h-[1px]
+              <div className="w-20 h-px
               bg-[#bfb6a8] mt-10"></div>
 
               <p className="mt-10 text-gray-600
-              leading-9 text-[17px] max-w-[620px]">
+              leading-9 text-[17px] max-w-155">
 
                 Every plan I create is as unique as the person
                 I’m guiding. Because true wellness isn’t one-size-fits-all.
@@ -238,13 +238,13 @@ const FounderStorySection = () => {
 
         {/* BOTTOM QUOTE BAR */}
         <div className="mt-8 bg-[#EDE9DE] border border-[#ebe5db]
-        rounded-[24px] px-8 py-7 flex flex-col lg:flex-row
+        rounded-3xl px-8 py-7 flex flex-col lg:flex-row
         items-center justify-between gap-6">
 
           {/* LEFT */}
           <div className="flex items-center gap-5">
 
-            <div className="w-14 h-14 rounded-full min-w-[56px]
+            <div className="w-14 h-14 rounded-full min-w-14
             bg-[#506b34] text-white
             flex items-center justify-center">
 
@@ -252,7 +252,7 @@ const FounderStorySection = () => {
 
             </div>
 
-            <p className="text-gray-600 max-w-[700px]">
+            <p className="text-gray-600 max-w-175">
 
               My deepest purpose is to help you feel good in your body,
               calm in your mind and confident in your choices — every single day.

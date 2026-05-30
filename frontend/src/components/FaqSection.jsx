@@ -90,8 +90,8 @@ const FaqSection = () => {
 
                 <div
                   className="
-                    min-w-[42px]
-                    min-h-[42px]
+                    min-w-10.5
+                    min-h-10.5
                     rounded-full
                     bg-[#1d4a13]
                     text-white

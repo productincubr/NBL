@@ -63,7 +63,7 @@ const ProgramsSection = () => {
     <section className="w-full bg-[#F9F7F2] py-28 overflow-hidden">
 
       {/* CONTAINER */}
-      <div className="max-w-[1450px] mx-auto px-6 lg:px-20">
+      <div className="max-w-362.5 mx-auto px-6 lg:px-20">
 
         {/* TOP CONTENT */}
         <div className="text-center max-w-5xl mx-auto">
@@ -92,7 +92,7 @@ const ProgramsSection = () => {
 
           </h1>
 
-          <p className="mt-10 text-gray-500 text-[18px] leading-[2] max-w-4xl mx-auto">
+          <p className="mt-10 text-gray-500 text-[18px] leading-loose max-w-4xl mx-auto">
 
             No two bodies, routines or journeys are the same.
             Your plan is thoughtfully crafted around your lifestyle,
@@ -154,7 +154,7 @@ const ProgramsSection = () => {
                   <img
                     src={item.image}
                     alt=""
-                    className="w-full h-[180px] object-cover group-hover:scale-105 duration-700"
+                    className="w-full h-45 object-cover group-hover:scale-105 duration-700"
                   />
                 </div>
               </div>

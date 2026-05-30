@@ -13,7 +13,7 @@ const RecognitionSection = () => {
   return (
     <section className="bg-[#f5f2ec] py-24">
 
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+      <div className="max-w-350 mx-auto px-6 lg:px-12">
 
         {/* HEADING */}
 
@@ -62,7 +62,7 @@ const RecognitionSection = () => {
             <img
               src={founderImage}
               alt=""
-              className="mt-8 rounded-[24px] w-[220px] group-hover:scale-105 duration-500"
+              className="mt-8 rounded-3xl w-55 group-hover:scale-105 duration-500"
             />
 
             <h4 className="mt-4 text-[30px] text-[#3f472d] font-['Cormorant_Garamond']">
@@ -96,7 +96,7 @@ const RecognitionSection = () => {
             <img
               src={bookImage}
               alt=""
-              className="mt-8 w-[280px] mx-auto group-hover:rotate-2 group-hover:scale-105 duration-500"
+              className="mt-8 w-70 mx-auto group-hover:rotate-2 group-hover:scale-105 duration-500"
             />
 
             <p className="mt-6 text-gray-600">
