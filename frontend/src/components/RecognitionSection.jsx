@@ -3,7 +3,7 @@ import { Quote } from "lucide-react";
 
 
 import founderImage from "../assets/PortraitLovneetBatra.png";
-import bookImage from "../assets/bookCover.png";
+import bookImage from "../assets/BookCover.png";
 
 import review1 from "../assets/review1.png";
 import review2 from "../assets/review2.png";
