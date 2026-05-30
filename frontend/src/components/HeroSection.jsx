@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../assets/heroImg.png";
+import heroImage from "../assets/heroImg.webp";
 import { LuArrowRight, LuHeart, LuStar, LuUser } from "react-icons/lu";
 
 const HeroSection = () => {

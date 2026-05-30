@@ -1,12 +1,12 @@
 import React from "react";
 
-import vogue from "../assets/vogue.png";
-import financial from "../assets/financial.png";
-import business from "../assets/business.png";
-import weekend from "../assets/weekend.png";
-import readers from "../assets/readers.png";
-import economic from "../assets/economic.png";
-import ass from '../assets/ass.png';
+import vogue from "../assets/vogue.webp";
+import financial from "../assets/financial.webp";
+import business from "../assets/business.webp";
+import weekend from "../assets/weekend.webp";
+import readers from "../assets/readers.webp";
+import economic from "../assets/economic.webp";
+import ass from '../assets/ass.webp';
 
 const FeaturedSection = () => {
 
@@ -58,7 +58,7 @@ const FeaturedSection = () => {
       <div className="relative bg-[#dce3c2] py-24 px-6 text-center overflow-hidden">
 
         {/* Background Overlay Pattern */}
-        <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/food.png')]"></div>
+        <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/food.webp')]"></div>
 
         <div className="relative z-10 max-w-5xl mx-auto">
 

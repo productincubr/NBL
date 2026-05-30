@@ -1,8 +1,8 @@
 import React from "react";
 import { Leaf } from "lucide-react";
 
-import mainImage from "../assets/nutritionistImg.png";
-import videoThumb from "../assets/videoImg.png";
+import mainImage from "../assets/nutritionistImg.webp";
+import videoThumb from "../assets/videoImg.webp";
 
 const AboutSection = () => {
   return (

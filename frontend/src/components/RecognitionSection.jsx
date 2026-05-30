@@ -2,12 +2,12 @@ import React from "react";
 import { Quote } from "lucide-react";
 
 
-import founderImage from "../assets/PortraitLovneetBatra.png";
-import bookImage from "../assets/BookCover.png";
+import founderImage from "../assets/PortraitLovneetBatra.webp";
+import bookImage from "../assets/BookCover.webp";
 
-import review1 from "../assets/review1.png";
-import review2 from "../assets/review2.png";
-import review3 from "../assets/review3.png";
+import review1 from "../assets/review1.webp";
+import review2 from "../assets/review2.webp";
+import review3 from "../assets/review3.webp";
 
 const RecognitionSection = () => {
   return (

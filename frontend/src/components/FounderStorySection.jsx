@@ -1,8 +1,8 @@
 import React from "react";
 import { Leaf, Heart, Sun, Users, BookOpen, Sparkles } from "lucide-react";
 
-import collageImage from "../assets/gridImg.png";
-import founderImage from "../assets/PortraitImg.png";
+import collageImage from "../assets/gridImg.webp";
+import founderImage from "../assets/PortraitImg.webp";
 
 const FounderStorySection = () => {
   return (
