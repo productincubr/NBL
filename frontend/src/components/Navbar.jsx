@@ -32,7 +32,7 @@ const Navbar = () => {
       {/* Right Side */}
       <div className="flex items-center gap-4 lg:gap-5">
 
-        <button className="hidden sm:block bg-[#6B704C] text-white px-6 py-3 rounded-full text-xs tracking-wide hover:bg-[#55603d] transition">
+        <button className="hidden sm:block bg-[#1f4d1f] text-white px-6 py-3 rounded-full text-xs tracking-wide hover:bg-[#55603d] transition">
           BOOK CONSULTATION
         </button>
 
@@ -54,7 +54,7 @@ const Navbar = () => {
             <li className="cursor-pointer hover:text-[#6b7452]">RESOURCES</li>
             <li className="cursor-pointer hover:text-[#6b7452]">CONTACT</li>
             <li className="sm:hidden mt-2">
-              <button className="bg-[#6B704C] text-white px-6 py-3 rounded-full text-xs tracking-wide hover:bg-[#55603d] transition">
+              <button className="bg-[#1f4d1f] text-white px-6 py-3 rounded-full text-xs tracking-wide hover:bg-[#55603d] transition">
                 BOOK CONSULTATION
               </button>
             </li>

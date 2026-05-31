@@ -1,14 +1,16 @@
 import React from "react";
 
-import vogue from "../assets/vogue.webp";
-import financial from "../assets/financial.webp";
-import business from "../assets/business.webp";
-import weekend from "../assets/weekend.webp";
-import readers from "../assets/readers.webp";
-import economic from "../assets/economic.webp";
-import ass from '../assets/ass.webp';
+import vogue from "../assets/vogue.png";
+import financial from "../assets/financial.png";
+import business from "../assets/business.png";
+import weekend from "../assets/weekend.png";
+import readers from "../assets/readers.png";
+import economic from "../assets/economic.png";
+
 
 const FeaturedSection = () => {
+
+  const logoBoxClass = "flex h-9 w-28 sm:h-10 sm:w-32 md:h-11 md:w-36 items-center justify-center shrink-0";
 
   const logos = [
     vogue,
@@ -17,37 +19,51 @@ const FeaturedSection = () => {
     weekend,
     readers,
     economic,
-    ass
   ];
 
   return (
     <section className="w-full overflow-hidden pt-12">
 
       {/* TOP MOVING LOGOS BAR */}
-      <div className="bg-[#193C0F] py-10 overflow-hidden">
+      <div className="bg-[#193C0F] py-6 overflow-hidden">
 
-        <div className="marquee-track animate-marquee">
+        <div className="max-w-6xl mx-auto flex items-center gap-6 px-6">
 
-          <div className="marquee-group">
-            {logos.map((logo, index) => (
-              <img
-                key={`first-${index}`}
-                src={logo}
-                alt="brand"
-                className="h-8 object-contain opacity-95 shrink-0"
-              />
-            ))}
+          {/* Static label on the left with inline arrow */}
+          <div className="text-white font-medium whitespace-nowrap flex items-center gap-3">
+            <span>As featured in</span>
+            <span className="text-white leading-none text-2xl" aria-hidden="true">→</span>
           </div>
 
-          <div className="marquee-group" aria-hidden="true">
-            {logos.map((logo, index) => (
-              <img
-                key={`second-${index}`}
-                src={logo}
-                alt="brand"
-                className="h-8 object-contain opacity-95 shrink-0"
-              />
-            ))}
+          {/* Scrolling logos to the right of the label */}
+          <div className="flex-1 overflow-hidden">
+            <div className="marquee-track animate-marquee">
+
+              <div className="marquee-group">
+                {logos.map((logo, index) => (
+                  <div key={`first-${index}`} className={logoBoxClass}>
+                    <img
+                      src={logo}
+                      alt="brand"
+                      className="h-full w-full object-contain opacity-100 drop-shadow-sm"
+                    />
+                  </div>
+                ))}
+              </div>
+
+              <div className="marquee-group" aria-hidden="true">
+                {logos.map((logo, index) => (
+                  <div key={`second-${index}`} className={logoBoxClass}>
+                    <img
+                      src={logo}
+                      alt="brand"
+                      className="h-full w-full object-contain opacity-100 drop-shadow-sm"
+                    />
+                  </div>
+                ))}
+              </div>
+
+            </div>
           </div>
 
         </div>

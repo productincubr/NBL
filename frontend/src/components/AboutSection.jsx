@@ -41,7 +41,7 @@ const AboutSection = () => {
         <div className="relative flex justify-center pb-12 md:pb-0">
 
           {/* Main Image */}
-          <div className="rounded-t-[100px] md:rounded-t-[220px] overflow-hidden max-w-[280px] sm:max-w-[400px] md:max-w-125 w-full">
+          <div className="rounded-t-[100px] md:rounded-t-[220px] overflow-hidden max-w-70 sm:max-w-100 md:max-w-125 w-full">
             <img
               src={mainImage}
               alt="Nutritionist"
@@ -63,8 +63,8 @@ const AboutSection = () => {
 
             </p>
 
-            <div className="mt-4 md:mt-6 text-right text-[#9acd32] text-xl">
-              ❦
+            <div className="mt-4 md:mt-6 text-right text-[#9acd32] flex justify-end">
+              <Leaf size={18} strokeWidth={2.2} />
             </div>
 
           </div>
@@ -124,7 +124,7 @@ const AboutSection = () => {
               {/* CAPTION BUTTON */}
               <button className="mt-4 w-full flex items-center justify-center md:justify-start gap-3 bg-[#e6e3db] text-[#556b2f] rounded-md py-3 px-4 text-xs md:text-sm font-medium">
 
-                <span className="w-6 h-6 md:w-7 md:h-7 bg-[#556b2f] text-white rounded-full flex items-center justify-center text-[10px] md:text-[12px] flex-shrink-0">
+                <span className="w-6 h-6 md:w-7 md:h-7 bg-[#556b2f] text-white rounded-full flex items-center justify-center text-[10px] md:text-[12px] shrink-0">
                   <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8 5v14l11-7L8 5z" fill="currentColor" />
                   </svg>
@@ -141,7 +141,7 @@ const AboutSection = () => {
           {/* SIGNATURE */}
           <div className="mt-8 md:mt-10 text-center md:text-left">
 
-            <h3 className="text-3xl md:text-[48px] font-serif italic text-[#4b5632]">
+            <h3 className="text-[44px] md:text-[58px] font-['Great_Vibes',cursive] italic text-[#4b5632] leading-none">
               Lovneet Batra ♥
             </h3>
 

@@ -8,11 +8,11 @@ const FounderStorySection = () => {
   return (
     <section className="w-full bg-[#f5f2ec] py-8 md:py-12 overflow-hidden">
 
-      {/* CONTAINER */}
-      <div className="max-w-362.5 mx-auto px-6 lg:px-16">
+      {/* CONTAINER (wider) */}
+      <div className="max-w-6xl mx-auto px-6 lg:px-16">
 
-        {/* TOP CARD */}
-        <div className="bg-[#f8f5ef] rounded-4xl overflow-hidden border border-[#ebe5db]">
+        {/* TOP CARD (white box, slightly wider appearance) */}
+        <div className="bg-white rounded-4xl overflow-hidden border border-[#ebe5db] shadow-sm">
 
           {/* CENTERED HEADER */}
           <div className="text-center pt-8 md:pt-12 lg:pt-16 px-6">
@@ -53,8 +53,8 @@ const FounderStorySection = () => {
 
               {/* SIGNATURE */}
               <div className="mt-8">
-                <h3 className="text-[52px]
-                font-['Great_Vibes',cursive] italic opacity-80
+                <h3 className="text-[56px]
+                font-['Great_Vibes',cursive] italic opacity-90
                 text-[#617046] tracking-wide">
                   Lovneet
                 </h3>
@@ -66,7 +66,7 @@ const FounderStorySection = () => {
                   <p className="text-gray-600 flex items-start gap-2">
                     <span className="text-[#f19090] mt-1"><Heart size={16} fill="currentColor" strokeWidth={0} /></span>
                   </p>
-                  <div className="text-[#3b4528] flex items-start gap-2">
+                  <div className="text-[#3b4528] flex items-start gap-2 max-w-2xl">
                     <span className="text-gray-400 mt-0.75"><Sun size={16} /></span>
                     <div>
                       <p className="font-semibold text-[15.5px]">14+ years of experience.</p>
@@ -252,7 +252,7 @@ const FounderStorySection = () => {
 
             </div>
 
-            <p className="text-gray-600 max-w-175">
+            <p className="text-gray-600 max-w-160">
 
               My deepest purpose is to help you feel good in your body,
               calm in your mind and confident in your choices — every single day.
@@ -262,11 +262,11 @@ const FounderStorySection = () => {
           </div>
 
           {/* RIGHT */}
-          <h3 className="text-[34px] italic flex items-center
+          <h3 className="text-[23px] italic flex items-center
           font-['Cormorant_Garamond']
           text-[#4b5632]">
 
-            One purpose. You <Heart size={28} className="ml-3 text-[#f19090]" fill="currentColor" strokeWidth={0} />
+            One purpose. You.<Heart size={28} className="ml-2 text-[#f19090]" fill="currentColor" strokeWidth={0} />
           </h3>
 
         </div>

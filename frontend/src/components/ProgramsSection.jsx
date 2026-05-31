@@ -81,7 +81,7 @@ const ProgramsSection = () => {
           </span>
           </div>
 
-          <h1 className="text-4xl md:text-[60px] lg:text-[70px] leading-[1.2] md:leading-[1] font-['Cormorant_Garamond'] text-[#3f472d]">
+          <h1 className="text-4xl md:text-[60px] lg:text-[70px] leading-[1.2] md:leading-none font-['Cormorant_Garamond'] text-[#3f472d]">
 
             Care designed <br />
 
@@ -178,9 +178,9 @@ const ProgramsSection = () => {
           <div className="flex items-center gap-5">
 
             <div className="w-14 h-14 rounded-full bg-[#dfe7c7]
-            flex items-center justify-center text-[#5d6d3f] text-2xl">
+            flex items-center justify-center text-[#5d6d3f]">
 
-              ❦
+              <Leaf size={22} strokeWidth={2.25} />
 
             </div>
 
