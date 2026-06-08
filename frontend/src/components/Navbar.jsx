@@ -14,6 +14,8 @@ const Navbar = () => {
           NUTRITION BY
         </h2>
 
+
+
         <h1 className="text-3xl font-serif text-[#2d2d2d]">
           LOVNEET
         </h1>
