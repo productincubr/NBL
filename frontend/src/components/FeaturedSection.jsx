@@ -6,19 +6,20 @@ import business from "../assets/business.png";
 import weekend from "../assets/weekend.png";
 import readers from "../assets/readers.png";
 import economic from "../assets/economic.png";
+import bgImg from "../assets/bgImg.png";
 
 
 const FeaturedSection = () => {
 
-  const logoBoxClass = "flex h-9 w-28 sm:h-10 sm:w-32 md:h-11 md:w-36 items-center justify-center shrink-0";
+  const logoBoxClass = "flex h-7 w-20 sm:h-8 sm:w-24 md:h-9 md:w-28 items-center justify-center shrink-0";
 
   const logos = [
-    vogue,
-    financial,
-    business,
-    weekend,
-    readers,
-    economic,
+    { src: vogue, scale: "scale-90" },
+    { src: financial, scale: "scale-90" },
+    { src: business, scale: "scale-90" },
+    { src: weekend, scale: "scale-90" },
+    { src: readers, scale: "scale-90" },
+    { src: economic, scale: "scale-90" },
   ];
 
   return (
@@ -43,9 +44,9 @@ const FeaturedSection = () => {
                 {logos.map((logo, index) => (
                   <div key={`first-${index}`} className={logoBoxClass}>
                     <img
-                      src={logo}
+                      src={logo.src}
                       alt="brand"
-                      className="h-full w-full object-contain opacity-100 drop-shadow-sm"
+                      className={`h-full w-full object-contain opacity-100 drop-shadow-sm ${logo.scale}`}
                     />
                   </div>
                 ))}
@@ -55,9 +56,9 @@ const FeaturedSection = () => {
                 {logos.map((logo, index) => (
                   <div key={`second-${index}`} className={logoBoxClass}>
                     <img
-                      src={logo}
+                      src={logo.src}
                       alt="brand"
-                      className="h-full w-full object-contain opacity-100 drop-shadow-sm"
+                      className={`h-full w-full object-contain opacity-100 drop-shadow-sm ${logo.scale}`}
                     />
                   </div>
                 ))}
@@ -74,7 +75,7 @@ const FeaturedSection = () => {
       <div className="relative bg-[#dce3c2] py-24 px-6 text-center overflow-hidden">
 
         {/* Background Overlay Pattern */}
-        <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/food.webp')]"></div>
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{ backgroundImage: `url(${bgImg})` }}></div>
 
         <div className="relative z-10 max-w-5xl mx-auto">
 

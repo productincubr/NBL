@@ -1,4 +1,6 @@
+
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,8 +25,8 @@ const Navbar = () => {
 
       {/* Nav Links */}
       <ul className="hidden lg:flex items-center gap-10 text-[15px] font-semibold tracking-[1px] text-[#2C2C2C]">
-        <li className="cursor-pointer hover:text-[#6b7452]">PROGRAMS</li>
-        <li className="cursor-pointer hover:text-[#6b7452]">ABOUT</li>
+       <Link to='/nourish'><li className="cursor-pointer hover:text-[#6b7452]">PROGRAMS</li></Link> 
+        <Link to='/blog'><li className="cursor-pointer hover:text-[#6b7452]">BLOG</li></Link>
         <li className="cursor-pointer hover:text-[#6b7452]">RESOURCES</li>
         <li className="cursor-pointer hover:text-[#6b7452]">CONTACT</li>
       </ul>

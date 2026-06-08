@@ -84,12 +84,12 @@ const FounderStorySection = () => {
             {/* RIGHT IMAGE */}
             <div className="relative h-full flex justify-end lg:pr-16 pt-8 pb-0">
               {/* IMAGE WRAPPER WITH BACKGROUND SHAPE */}
-              <div className="relative w-full max-w-105 rounded-tr-[120px] rounded-tl-4xl pt-12 px-8 flex justify-center items-end overflow-hidden">
+              <div className="w-full max-w-105 rounded-tr-[120px] rounded-tl-4xl pt-12 px-8 flex justify-center items-center overflow-hidden min-h-130">
                 <img
                   src={founderImage}
                   alt="Nutritionist Lovneet Batra"
                   className="relative z-10 w-full max-w-100
-                  object-cover 
+                  object-cover object-center
                   hover:scale-105 duration-700 mx-auto"
                 />
               </div>

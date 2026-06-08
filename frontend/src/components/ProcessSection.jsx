@@ -139,86 +139,86 @@ const ProcessSection = () => {
 
         {/* GREEN PREMIUM CARD */}
         <div className="mt-24 relative overflow-hidden rounded-[34px]
-        px-10 lg:px-16 py-12 lg:py-[72px]">
+        px-10 lg:px-16 py-10 lg:py-[55px]">
 
           {/* BACKGROUND GRADIENT */}
           <div className="absolute inset-0 bg-gradient-to-b from-[#193C0F] to-[#676957]"></div>
 
           {/* CONTENT */}
-          <div className="relative z-10 flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-4">
+          <div className="relative z-10 flex flex-col gap-12">
 
-            {/* LEFT */}
-            <div className="flex-1 flex flex-col items-start lg:pr-6 w-full pt-2">
-              <h2 className="text-white text-3xl md:text-[44px] lg:text-[48px] xl:text-[52px] leading-[1.2] md:leading-[1.1]
-              font-['Cormorant_Garamond'] tracking-wide">
-                Trusted by thousands <br className="hidden lg:block" />
-                seeking sustainable <br className="hidden lg:block" />
-                healing.
-              </h2>
-              <div className="w-16 h-[1px] bg-white/40 mt-8"></div>
-            </div>
+            <div className="flex flex-col xl:flex-row items-start justify-between gap-10 xl:gap-12">
 
-            {/* CENTER */}
-            <div className="flex-1 flex flex-col items-center w-full gap-14">
-              {/* Top Stats */}
-              <div className="flex justify-center gap-12 lg:gap-20 w-full">
-                <div className="text-center">
-                  <Users size={24} className="mx-auto text-white/80" strokeWidth={1.2} />
-                  <h3 className="text-white text-[42px] mt-4
-                  font-['Cormorant_Garamond'] leading-none">
-                    1000+
-                  </h3>
-                  <p className="text-white/60 text-[10px]
-                  tracking-[2px] uppercase mt-3 leading-[1.6]">
-                    Transformations <br />
-                    and Counting
-                  </p>
+              {/* LEFT */}
+              <div className="flex-1 flex flex-col items-start lg:pr-6 w-full pt-0">
+                <h2 className="text-white text-3xl md:text-[44px] lg:text-[50px] xl:text-[42px] leading-[1.2] md:leading-[1.1]
+                font-['Cormorant_Garamond'] tracking-wide">
+                  <span className="block whitespace-nowrap">Trusted by thousands</span>
+                  <span className="block whitespace-nowrap">seeking sustainable</span>
+                  <span className="block whitespace-nowrap">healing.</span>
+                </h2>
+                <div className="w-16 h-[1px] bg-white/40 mt-8"></div>
+              </div>
+
+              {/* RIGHT OF TOP TWO */}
+              <div className="flex-[1.2] flex flex-col items-center xl:items-start gap-10 w-full pt-0">
+                <div className="flex flex-col md:flex-row justify-center xl:justify-start gap-12 lg:gap-16 w-full">
+                  <div className="text-center">
+                    <Users size={24} className="mx-auto text-white/80" strokeWidth={1.2} />
+                    <h3 className="text-white text-[35px] mt-4
+                    font-['Cormorant_Garamond'] leading-none">
+                      1000+
+                    </h3>
+                    <p className="text-white/60 text-[10px]
+                    tracking-[2px] uppercase mt-3 leading-[1.6]">
+                      Transformations <br />
+                      and Counting
+                    </p>
+                  </div>
+
+                  <div className="text-center">
+                    <BookOpen size={24} className="mx-auto text-white/80" strokeWidth={1.2} />
+                    <h3 className="text-white text-[35px] mt-4
+                    font-['Cormorant_Garamond'] leading-none">
+                      14+
+                    </h3>
+                    <p className="text-white/60 text-[10px]
+                    tracking-[2px] uppercase mt-3 leading-[1.6]">
+                      Years <br />
+                      of Experience
+                    </p>
+                  </div>
+
+                  <div className="text-center md:max-w-[220px]">
+                    <FlaskConical size={24} className="mx-auto text-white/80" strokeWidth={1.2} />
+                    <h3 className="text-white text-[32px] mt-4
+                    font-['Cormorant_Garamond'] leading-none">
+                      Science-backed Care
+                    </h3>
+                    <p className="text-white/60 text-[10px]
+                    tracking-[2px] uppercase mt-3 leading-[1.6]">
+                      Rooted in Evidence <br />
+                      and Expertise
+                    </p>
+                  </div>
                 </div>
 
-                <div className="text-center">
-                  <BookOpen size={24} className="mx-auto text-white/80" strokeWidth={1.2} />
-                  <h3 className="text-white text-[42px] mt-4
-                  font-['Cormorant_Garamond'] leading-none">
-                    14+
-                  </h3>
-                  <p className="text-white/60 text-[10px]
-                  tracking-[2px] uppercase mt-3 leading-[1.6]">
-                    Years <br />
-                    of Experience
-                  </p>
-                </div>
-              </div>
-
-              {/* Bottom Science */}
-              <div className="text-center flex flex-col items-center">
-                <FlaskConical size={24} className="text-white/80" strokeWidth={1.2} />
-                <h3 className="text-white text-[38px] mt-4
-                font-['Cormorant_Garamond'] leading-none">
-                  Science-backed Care
-                </h3>
-                <p className="text-white/60 text-[10px]
-                tracking-[2px] uppercase mt-3 leading-[1.6]">
-                  Rooted in Evidence <br />
-                  and Expertise
-                </p>
               </div>
             </div>
 
-            {/* RIGHT */}
-            <div className="flex-1 flex flex-col justify-end items-center lg:items-end w-full lg:min-h-[280px]">
-              <div className="flex flex-col items-center lg:items-end gap-3 mt-auto lg:mb-4">
-                <button className="bg-white hover:bg-gray-50
-                text-[#1d2d11] font-medium px-7 py-3.5 rounded-full
-                text-[14px] shadow-lg hover:scale-105
-                transition-transform duration-300 flex items-center gap-3">
-                  Book Your Consultation <ArrowRight size={17} strokeWidth={2} />
-                </button>
+            {/* BOTTOM CENTER CTA */}
+            <div className="flex flex-col items-center gap-3 w-full pt-2">
+              <button className="bg-white hover:bg-gray-50
+              text-[#1d2d11] font-medium px-7 py-3.5 rounded-full
+              text-[14px] shadow-lg hover:scale-105
+              transition-transform duration-300 flex items-center gap-3">
+                Book Your Consultation <ArrowRight size={17} strokeWidth={2} />
+              </button>
 
-                <p className="text-white/60 text-[12px] text-center lg:text-right leading-relaxed mt-1">
-                  Personal care. Real results. <br />
-                  A better you, for life.
-                </p>
-              </div>
+              <p className="text-white/60 text-[12px] text-center leading-relaxed mt-1">
+                Personal care. Real results. <br />
+                A better you, for life.
+              </p>
             </div>
 
           </div>
