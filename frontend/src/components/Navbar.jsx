@@ -13,9 +13,6 @@ const Navbar = () => {
         <h2 className="text-[11px] tracking-[2px] text-gray-700">
           NUTRITION BY
         </h2>
-
-
-        git commit -m "fix build"
         
         <h1 className="text-3xl font-serif text-[#2d2d2d]">
           LOVNEET
